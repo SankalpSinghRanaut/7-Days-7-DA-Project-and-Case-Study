@@ -1,0 +1,45 @@
+
+Customer & Sales Behavior Analysis — Online Retail
+Problem Statement
+The business wanted to understand which customers contribute the most revenue, which products drive sales, and whether revenue follows a seasonal pattern. Without these insights, marketing campaigns, inventory planning, and customer retention efforts rely on assumptions rather than data, increasing the risk of inefficient business decisions.
+________________________________________
+Data Overview
+The analysis was conducted using the Online Retail dataset containing 1,048,575 transaction records from December 2009 to December 2011. The dataset represents sales transactions from a UK-based online retailer and includes information such as Invoice Number, Product Description, Quantity, Unit Price, Customer ID, Invoice Date, and Country. The objective was to transform raw transactional data into actionable business insights through Excel, SQL, and Power BI.
+________________________________________
+Data Cleaning (Excel)
+Before analysis, the dataset was cleaned to improve accuracy and reliability.
+•	Removed 262,975 transactions (25.08%) with missing Customer IDs because they could not be linked to individual customers. This was documented as a business data quality issue since guest checkouts limit customer-level analysis.
+•	Separated 18,160 return and cancellation transactions identified by negative quantities into a separate dataset instead of deleting them, allowing returns to be analyzed independently.
+•	Removed 70 records where the unit price was zero, treating them as invalid transactions or data-entry errors.
+•	Removed 34,150 duplicate records to eliminate double-counting.
+•	Created calculated columns for Revenue (Quantity × Unit Price) and Order Month to support sales trend analysis.
+After cleaning, the final analytical dataset contained 767,370 valid sales transactions, providing a reliable foundation for SQL analysis and dashboard development.
+________________________________________
+Analysis (SQL)
+Six SQL queries were developed to answer key business questions:
+•	Identify the Top 10 customers based on total revenue.
+•	Measure revenue concentration (Pareto Analysis) to determine what percentage of revenue comes from the top 20% of customers.
+•	Identify the Top 5 products by both quantity sold and revenue generated.
+•	Analyze monthly revenue trends to identify seasonal sales patterns.
+•	Compare countries based on total orders and total revenue.
+•	Identify frequently purchased product combinations to uncover cross-selling opportunities.
+________________________________________
+Key Findings
+•	The top 20% of customers generated approximately 77.01 % of total revenue, confirming that a relatively small customer segment contributes the majority of business revenue.
+•	Regency Cake Stand And 3 Tier, generated the highest revenue, while White Hanging Heart T-Lighter Holder sold the highest number of units, highlighting the difference between sales volume and profitability.
+•	Sales reached their highest level during October & November, indicating strong seasonal demand likely driven by holiday shopping and promotional campaigns.
+•	United Kingdom generated the highest revenue, and recorded the largest number of orders, showing differences in customer purchasing behavior across markets.
+•	Regency Cake Stand And 3 Tier  and White Hanging Heart T-Lighter Holder were frequently purchased together, revealing a potential opportunity for product bundling and recommendation strategies.
+________________________________________
+Business Recommendations
+•	Develop a VIP loyalty program focused on the highest-value 20% of customers to improve retention and maximize customer lifetime value.
+•	Review pricing and profitability for high-volume but comparatively low-revenue products to optimize pricing strategy or intentionally position them as traffic-driving products.
+•	Increase inventory levels and marketing investment ahead of the identified peak sales months to prevent stock shortages and capitalize on seasonal demand.
+•	Launch bundle offers and cross-selling campaigns using the frequently purchased product combinations to increase average order value.
+•	Reduce the number of missing Customer IDs by encouraging account creation or loyalty program registration during checkout, improving the quality of future customer analytics.
+________________________________________
+Tools Used
+•	Microsoft Excel – Data Cleaning & Preparation
+•	MySQL – Business Analysis & SQL Queries
+•	Power BI – Dashboard Development & Business Intelligence
+
