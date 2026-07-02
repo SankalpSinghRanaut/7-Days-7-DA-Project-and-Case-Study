@@ -1,45 +1,148 @@
+# 📊 Customer & Sales Behavior Analysis | Online Retail
 
-Customer & Sales Behavior Analysis — Online Retail
-Problem Statement
-The business wanted to understand which customers contribute the most revenue, which products drive sales, and whether revenue follows a seasonal pattern. Without these insights, marketing campaigns, inventory planning, and customer retention efforts rely on assumptions rather than data, increasing the risk of inefficient business decisions.
-________________________________________
-Data Overview
-The analysis was conducted using the Online Retail dataset containing 1,048,575 transaction records from December 2009 to December 2011. The dataset represents sales transactions from a UK-based online retailer and includes information such as Invoice Number, Product Description, Quantity, Unit Price, Customer ID, Invoice Date, and Country. The objective was to transform raw transactional data into actionable business insights through Excel, SQL, and Power BI.
-________________________________________
-Data Cleaning (Excel)
-Before analysis, the dataset was cleaned to improve accuracy and reliability.
-•	Removed 262,975 transactions (25.08%) with missing Customer IDs because they could not be linked to individual customers. This was documented as a business data quality issue since guest checkouts limit customer-level analysis.
-•	Separated 18,160 return and cancellation transactions identified by negative quantities into a separate dataset instead of deleting them, allowing returns to be analyzed independently.
-•	Removed 70 records where the unit price was zero, treating them as invalid transactions or data-entry errors.
-•	Removed 34,150 duplicate records to eliminate double-counting.
-•	Created calculated columns for Revenue (Quantity × Unit Price) and Order Month to support sales trend analysis.
-After cleaning, the final analytical dataset contained 767,370 valid sales transactions, providing a reliable foundation for SQL analysis and dashboard development.
-________________________________________
-Analysis (SQL)
-Six SQL queries were developed to answer key business questions:
-•	Identify the Top 10 customers based on total revenue.
-•	Measure revenue concentration (Pareto Analysis) to determine what percentage of revenue comes from the top 20% of customers.
-•	Identify the Top 5 products by both quantity sold and revenue generated.
-•	Analyze monthly revenue trends to identify seasonal sales patterns.
-•	Compare countries based on total orders and total revenue.
-•	Identify frequently purchased product combinations to uncover cross-selling opportunities.
-________________________________________
-Key Findings
-•	The top 20% of customers generated approximately 77.01 % of total revenue, confirming that a relatively small customer segment contributes the majority of business revenue.
-•	Regency Cake Stand And 3 Tier, generated the highest revenue, while White Hanging Heart T-Lighter Holder sold the highest number of units, highlighting the difference between sales volume and profitability.
-•	Sales reached their highest level during October & November, indicating strong seasonal demand likely driven by holiday shopping and promotional campaigns.
-•	United Kingdom generated the highest revenue, and recorded the largest number of orders, showing differences in customer purchasing behavior across markets.
-•	Regency Cake Stand And 3 Tier  and White Hanging Heart T-Lighter Holder were frequently purchased together, revealing a potential opportunity for product bundling and recommendation strategies.
-________________________________________
-Business Recommendations
-•	Develop a VIP loyalty program focused on the highest-value 20% of customers to improve retention and maximize customer lifetime value.
-•	Review pricing and profitability for high-volume but comparatively low-revenue products to optimize pricing strategy or intentionally position them as traffic-driving products.
-•	Increase inventory levels and marketing investment ahead of the identified peak sales months to prevent stock shortages and capitalize on seasonal demand.
-•	Launch bundle offers and cross-selling campaigns using the frequently purchased product combinations to increase average order value.
-•	Reduce the number of missing Customer IDs by encouraging account creation or loyalty program registration during checkout, improving the quality of future customer analytics.
-________________________________________
-Tools Used
-•	Microsoft Excel – Data Cleaning & Preparation
-•	MySQL – Business Analysis & SQL Queries
-•	Power BI – Dashboard Development & Business Intelligence
+## Project Overview
 
+Businesses collect thousands of sales transactions every day, but raw data alone doesn't help them make better decisions.
+
+In this project, I analyzed an online retail dataset to understand **who the most valuable customers are, which products drive revenue, and how sales change throughout the year**. The goal was to turn over one million transaction records into meaningful business insights that could support marketing, inventory planning, and customer retention.
+
+Using **Excel**, **MySQL**, and **Power BI**, I cleaned the data, performed SQL analysis, and built an interactive dashboard to help answer important business questions.
+
+---
+
+## Business Problem
+
+The company wanted to answer several important questions:
+
+* Which customers generate the most revenue?
+* Which products sell the most and which generate the highest profit?
+* Are there seasonal sales patterns?
+* Which countries contribute the most revenue?
+* Which products are frequently bought together?
+* How can these insights improve business decisions?
+
+Without this information, marketing campaigns, inventory planning, and customer retention strategies rely on assumptions instead of data.
+
+---
+
+## Dataset
+
+* **Dataset:** Online Retail
+* **Period:** December 2009 – December 2011
+* **Original Records:** 1,048,575 transactions
+* **Final Clean Dataset:** 767,370 transactions
+
+### Data Includes
+
+* Invoice Number
+* Product Description
+* Quantity
+* Unit Price
+* Customer ID
+* Invoice Date
+* Country
+
+---
+
+## Tools Used
+
+* **Microsoft Excel** – Data Cleaning & Preparation
+* **MySQL** – Business Analysis & SQL Queries
+* **Power BI** – Dashboard Development & Data Visualization
+
+---
+
+## Project Workflow
+
+### 1. Data Cleaning (Excel)
+
+To make the analysis reliable, I first cleaned the dataset by:
+
+* Removing records with missing Customer IDs
+* Separating returned and cancelled orders into a separate dataset
+* Removing invalid transactions with zero unit price
+* Removing duplicate records
+* Creating Revenue and Order Month calculated columns
+* Validating the final dataset before analysis
+
+---
+
+### 2. Data Analysis (MySQL)
+
+I wrote SQL queries to answer key business questions, including:
+
+* Top 10 customers by revenue
+* Revenue contribution of the top 20% of customers (Pareto Analysis)
+* Top-selling products by quantity
+* Highest revenue-generating products
+* Monthly sales trends
+* Revenue by country
+* Frequently purchased product combinations
+
+---
+
+### 3. Dashboard Development (Power BI)
+
+Created an interactive dashboard showing:
+
+* Total Revenue
+* Total Orders
+* Top Customers
+* Top Products
+* Monthly Sales Trend
+* Country-wise Revenue
+* Product Combination Analysis
+
+---
+
+## Key Insights
+
+* The **top 20% of customers generated 77.01% of total revenue**, showing that a small group of customers contributes most of the business value.
+* **Regency Cake Stand And 3 Tier** generated the highest revenue.
+* **White Hanging Heart T-Light Holder** sold the highest number of units, proving that the most popular product isn't always the most profitable.
+* Sales peaked during **October and November**, showing strong seasonal demand.
+* The **United Kingdom** generated the highest revenue and recorded the largest number of orders.
+* Some products were frequently purchased together, creating opportunities for product bundles and cross-selling.
+
+---
+
+## Business Recommendations
+
+* Create a VIP loyalty program for high-value customers to improve retention.
+* Review pricing for high-volume products with lower revenue.
+* Increase inventory and marketing before the holiday season.
+* Introduce bundle offers for products that customers often buy together.
+* Encourage customer account creation during checkout to improve future customer analysis.
+
+---
+
+## Repository Structure
+
+```text
+📁 Data
+📁 Excel Files
+📁 SQL Queries
+📁 Power BI Dashboard
+📁 Dashboard Screenshots
+📄 Case Study Report
+📄 About Project
+```
+
+---
+
+## What I Learned
+
+This project taught me how to work with a large real-world dataset and turn raw sales data into business insights.
+
+I learned that good analysis is more than writing SQL queries or building dashboards. It starts with cleaning messy data, asking the right business questions, finding patterns, and turning those findings into recommendations that can help a business increase revenue, improve customer retention, and make smarter decisions.
+
+### Skills Demonstrated
+
+* Excel Data Cleaning
+* SQL Query Writing
+* Business Analysis
+* Power BI Dashboard Development
+* Data Visualization
+* Customer & Sales Analytics
+* Data Storytelling
+* Business Recommendations
