@@ -1,0 +1,138 @@
+# 📊 SaaS Subscription & Churn Analysis
+
+## Project Overview
+
+Customer acquisition is important, but long-term business growth depends on keeping customers.
+
+In this project, I analyzed a SaaS subscription dataset to understand why revenue growth was slowing down even though customer signups were increasing. The goal was to identify which customers were most likely to leave, what factors were driving churn, and what actions the business could take to improve customer retention.
+
+Using **Excel**, **SQL**, and **Power BI**, I cleaned the data, analyzed customer behavior, and built an interactive dashboard to turn raw data into business insights.
+
+---
+
+## Business Problem
+
+The company was gaining new customers every month, but revenue was not growing as expected.
+
+The main questions were:
+
+* What is the overall churn rate?
+* Which subscription plan has the highest churn?
+* How long do customers stay before cancelling?
+* Does the signup method affect customer retention?
+* Which acquisition channel brings the most valuable customers?
+* How has Monthly Recurring Revenue (MRR) changed over time?
+
+---
+
+## Dataset
+
+* **Records:** 2,000 customer subscriptions
+* **Period:** 2022–2023
+* **Data Includes:**
+
+  * Customer ID
+  * Subscription Plan
+  * Acquisition Source
+  * Signup Date
+  * Cancellation Date
+  * Monthly Recurring Revenue (MRR)
+  * Customer Lifetime Value (LTV)
+  * Customer Status
+
+---
+
+## Tools Used
+
+* **Excel** – Data cleaning and preparation
+* **SQL** – Business analysis and KPI calculations
+* **Power BI** – Interactive dashboard and data visualization
+
+---
+
+## Project Workflow
+
+### 1. Data Cleaning (Excel)
+
+* Verified duplicate Customer IDs
+* Formatted date columns
+* Handled active subscriptions with blank cancellation dates
+* Created calculated columns such as Churn Flag and Total Revenue
+* Validated plan distribution before analysis
+
+### 2. Data Analysis (SQL)
+
+Performed SQL analysis to answer key business questions:
+
+* Overall churn rate
+* Churn by subscription plan
+* Customer lifetime analysis
+* Lifetime Value (LTV)
+* Trial vs Full-Price customer comparison
+* Monthly Recurring Revenue (MRR) trend
+* Acquisition channel performance
+
+### 3. Dashboard Development (Power BI)
+
+Built an interactive dashboard showing:
+
+* Overall churn rate
+* Churn by subscription plan
+* Customer lifetime
+* Monthly Recurring Revenue trend
+* Customer acquisition performance
+* Key KPIs and business insights
+
+---
+
+## Key Insights
+
+* Overall churn rate was **29.55%**, meaning nearly **1 in every 3 customers** cancelled their subscription.
+* The **Basic Plan** had the highest churn rate (**30.92%**), while the **Enterprise Plan** had the lowest (**8.68%**).
+* Customers stayed for about **9–10 months** before cancelling.
+* Full-Price customers had a slightly higher churn rate than Free Trial customers.
+* **Direct Sales** produced the highest customer retention and Lifetime Value.
+* Monthly Recurring Revenue showed steady growth over time.
+
+---
+
+## Business Recommendations
+
+* Improve onboarding for Basic Plan customers.
+* Encourage Basic users to upgrade to Pro within the first 60 days.
+* Invest more in the Direct Sales acquisition channel.
+* Create an early warning system for inactive customers.
+* Introduce annual subscription plans to improve long-term retention.
+
+---
+
+## Repository Contents
+
+```
+📁 Data
+📁 Excel Files
+📁 SQL Queries
+📁 Power BI Dashboard
+📁 Dashboard Screenshots
+📄 Case Study Report
+📄 About Project
+```
+
+---
+
+## What I Learned
+
+This project helped me practice solving a real business problem using data.
+
+Instead of only creating charts, I focused on understanding **why customers were leaving**, 
+identifying the biggest business risks, 
+and turning data into recommendations that could help improve revenue and customer retention.
+
+This project strengthened my skills in:
+
+* Excel Data Cleaning
+* SQL Analysis
+* Power BI Dashboard Design
+* Business Problem Solving
+* Data Storytelling
+* Turning Insights into Business Recommendations
