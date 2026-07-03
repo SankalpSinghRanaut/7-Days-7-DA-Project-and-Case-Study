@@ -1,0 +1,151 @@
+# 📊 HR Employee Attrition Analysis
+
+## 📌 Project Overview
+
+Employee attrition is one of the biggest challenges for HR teams. High turnover increases recruitment costs, reduces productivity, and affects team performance. However, identifying *why* employees leave is often more difficult than measuring *how many* leave.
+
+In this project, I analyzed employee data to uncover the key factors influencing attrition and translated those findings into actionable business recommendations.
+
+Using **Excel**, **MySQL**, and **Power BI**, I explored how department, job satisfaction, salary, commute distance, tenure, and job role impact employee retention.
+
+---
+
+## 🎯 Business Problem
+
+The HR leadership team observed rising employee attrition but couldn't determine the primary reasons employees were leaving.
+
+Key questions included:
+
+* Which departments experience the highest attrition?
+* Does low job satisfaction increase employee turnover?
+* Is salary a major factor?
+* Which employees are most at risk of leaving?
+* What actions can HR take to improve retention?
+
+The goal was to answer these questions using data and recommend strategies that reduce employee turnover.
+
+---
+
+## 🛠 Tools Used
+
+* **Excel** – Data Cleaning & Preparation
+* **MySQL** – Business Analysis
+* **Power BI** – Interactive Dashboard
+
+---
+
+## 📂 Dataset
+
+**Source:** IBM HR Employee Attrition Dataset
+
+**Dataset Size**
+
+* ~1,470 Employees
+* HR Demographics
+* Salary Information
+* Department
+* Job Role
+* Job Satisfaction
+* Overtime
+* Years at Company
+* Commute Distance
+* Attrition Status
+
+---
+
+## 📈 Business Questions
+
+This project answers the following business questions:
+
+* What is the overall employee attrition rate?
+* Which department has the highest attrition?
+* Does job satisfaction influence employee turnover?
+* Is attrition higher among employees with longer commutes?
+* Which salary band experiences the highest attrition?
+* Is there a tenure "danger zone" where employees are most likely to leave?
+* Which job role has the highest attrition?
+
+---
+
+## 📊 Key Insights
+
+### 📌 Overall Attrition
+
+* Overall employee attrition rate: **16.12%**
+* Approximately **1 in every 6 employees** leaves the organization.
+
+---
+
+### 📌 Department Analysis
+
+* Sales recorded the highest attrition rate (**20.63%**).
+* Human Resources followed at **19.05%**.
+* Research & Development had the lowest attrition rate (**13.84%**) despite the highest number of employee exits.
+
+---
+
+### 📌 Job Satisfaction
+
+Employees with the lowest job satisfaction score experienced nearly **double the attrition** compared to employees with the highest satisfaction.
+
+---
+
+### 📌 Salary Analysis
+
+Employees earning **less than ₹3,000/month** had an attrition rate of **26.61%**, nearly **2× higher** than employees in the highest income band.
+
+---
+
+### 📌 Commute Distance
+
+Employees commuting **16 km or more** had an attrition rate of **20.67%**, suggesting longer travel distances negatively affect employee retention.
+
+---
+
+### 📌 Employee Tenure
+
+Employees within their first **0–2 years** experienced the highest attrition (**29.82%**), making early tenure the most critical retention period.
+
+---
+
+### 📌 Job Role
+
+Sales Representatives experienced the highest attrition (**39.76%**), indicating that role-specific factors may be contributing to turnover.
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis, I recommend:
+
+* Strengthen onboarding during employees' first two years.
+* Review compensation for lower-income employees.
+* Conduct regular employee satisfaction surveys.
+* Reduce excessive overtime and improve work-life balance.
+* Offer flexible work arrangements or transportation support for employees with longer commutes.
+* Conduct structured exit interviews for high-attrition job roles.
+* Build a predictive retention dashboard to proactively identify employees at risk of leaving.
+
+---
+
+## 📊 Dashboard Features
+
+The Power BI dashboard includes:
+
+* Overall Attrition Rate KPI
+* Department-wise Attrition
+* Job Role Analysis
+* Salary Band Analysis
+* Job Satisfaction Analysis
+* Employee Tenure Analysis
+* Gender & Marital Status Analysis
+* Age Group Analysis
+* Interactive Filters & Slicers
+
+---
+
+
+## 🚀 What I Learned
+
+This project reinforced that effective data analysis goes beyond building dashboards. By approaching the dataset from a business perspective, I focused on identifying the drivers of employee attrition and turning analytical findings into practical recommendations that HR leaders can use to improve employee retention.
+
