@@ -33,7 +33,7 @@ In this project, I analyzed employee data to uncover the key factors influencing
 
 ### Day 4 — Retail: Store Sales Performance
 
-## 📌 Project Overview
+📌 Project Overview
 Sales growth alone doesn't guarantee business success. A company can generate strong revenue while still losing profitability due to excessive discounting, poor product mix, 
 or ineffective pricing strategies. Understanding what drives both sales and profit is essential for making better business decisions.
 
