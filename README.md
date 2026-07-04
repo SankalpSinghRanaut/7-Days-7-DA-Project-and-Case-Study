@@ -26,3 +26,14 @@ Employee attrition is one of the biggest challenges for HR teams. High turnover 
 In this project, I analyzed employee data to uncover the key factors influencing attrition and translated those findings into actionable business recommendations.
 
 🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/30-Days-30-DA-Project-and-Case-Study/tree/main/Day%203%20%E2%80%94%20HR%20Employee%20Attrition)
+
+Day 4 — Retail: Store Sales Performance
+
+## 📌 Project Overview
+Sales growth alone doesn't guarantee business success. A company can generate strong revenue while still losing profitability due to excessive discounting, poor product mix, 
+or ineffective pricing strategies. Understanding what drives both sales and profit is essential for making better business decisions.
+
+In this project, I analyzed retail sales data to identify the key factors affecting business performance and translated those insights into actionable recommendations.
+
+🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/30-Days-30-DA-Project-and-Case-Study/tree/main/Day%204%20%E2%80%94%20Retail%20Store%20Sales%20Performance)
+
