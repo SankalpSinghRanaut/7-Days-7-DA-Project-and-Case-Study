@@ -1,0 +1,164 @@
+# 📊 Marketing Campaign Performance & Customer Response Analysis
+
+## 📌 Project Overview
+
+Running multiple marketing campaigns doesn't guarantee better customer engagement or higher revenue. To maximize marketing ROI, businesses need to understand which campaigns resonate with customers, which customer segments generate the highest value, and how purchasing behavior differs across channels.
+
+In this project, I analyzed customer marketing data to evaluate campaign performance, identify high-value customer segments, and uncover the key factors influencing customer spending and campaign response.
+
+Using **Excel**, **MySQL**, and **Power BI**, I explored customer demographics, purchasing behavior, campaign acceptance, product preferences, and sales channels to deliver actionable business recommendations for improving future marketing strategies.
+
+---
+
+## 🎯 Business Problem
+
+The marketing team launched five customer campaigns throughout the year but lacked clear insights into their effectiveness.
+
+Key questions included:
+
+* Which marketing campaign achieved the highest customer acceptance?
+* Which customer segments respond best to campaigns?
+* Which purchase channel generates the highest customer purchases?
+* Does higher income lead to greater spending and campaign response?
+* Which product category generates the highest customer spending?
+* How does household size influence purchasing behavior?
+* Which countries generate the highest customer value?
+
+The goal was to answer these questions using data and recommend strategies that improve campaign performance, customer engagement, and marketing ROI.
+
+---
+
+## 🛠 Tools Used
+
+* **Excel** – Data Cleaning & Preparation
+* **MySQL** – Business Analysis
+* **Power BI** – Interactive Dashboard
+
+---
+
+## 📂 Dataset
+
+**Source:** Marketing Campaign Customer Dataset
+
+**Dataset Size**
+
+* ~2,240 Customers
+* Customer Demographics
+* Income Information
+* Education & Marital Status
+* Product Spending
+* Purchase Channels
+* Website Activity
+* Marketing Campaign Responses
+* Customer Country Information
+
+---
+
+## 📈 Business Questions
+
+This project answers the following business questions:
+
+* Which marketing campaign achieved the highest acceptance rate?
+* Which education segment responds best to marketing campaigns?
+* Which purchase channel generates the highest customer purchases?
+* Does higher income lead to higher customer spending?
+* Which product category contributes the highest revenue?
+* Do customers with children spend less and respond less to campaigns?
+* Which country generates the highest customer spending and campaign response?
+
+---
+
+## 📊 Key Insights
+
+### 📌 Campaign Performance
+
+* **Campaign 4** recorded the highest customer acceptance rate (**7.46%**), while **Campaign 2** generated the lowest response rate (**1.34%**), indicating significant differences in campaign effectiveness.
+
+---
+
+### 📌 Customer Segment Analysis
+
+* Customers with a **PhD** demonstrated the highest campaign response rate (**6.75%**) while also recording the highest average customer spending (**$672.41**), making them the most valuable customer segment.
+
+---
+
+### 📌 Purchase Channel Analysis
+
+* **Store purchases** generated the highest purchase volume (**12,970 purchases**), while **Catalog customers** recorded the highest average purchases per customer, suggesting stronger customer loyalty and higher-value transactions.
+
+---
+
+### 📌 Income & Spending Analysis
+
+* Customers earning more than **$90,000** spent approximately **5× more** than lower-income customers.
+* However, campaign response did not increase proportionally with income, indicating that customer engagement depends on more than purchasing power alone.
+
+---
+
+### 📌 Product Performance
+
+* **Wine products** generated the highest customer spending among all product categories, making them the company's strongest-performing product line and the best opportunity for future promotional campaigns.
+
+---
+
+### 📌 Household Analysis
+
+* Customers without children or teenagers spent approximately **2.5× more** and responded to marketing campaigns more frequently than households with two or more children.
+
+---
+
+### 📌 Country Analysis
+
+* **Spain** generated the highest overall customer spending, while **Mexico** recorded the highest campaign response rate, highlighting differences between customer value and customer engagement across markets.
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis, I recommend:
+
+* Replicate the strategy used in **Campaign 4** to improve future campaign performance.
+* Increase marketing investment toward **Graduate** and **PhD** customer segments.
+* Develop dedicated campaigns around **Wine** products to maximize revenue.
+* Improve customer targeting using purchasing behavior instead of relying solely on demographics.
+* Expand **Catalog marketing**, as catalog customers demonstrate stronger purchasing behavior.
+* Prioritize high-value customer segments such as households without children.
+* Measure campaign success using both customer response rates and post-campaign revenue instead of acceptance rates alone.
+
+---
+
+## 📊 Dashboard Features
+
+The Power BI dashboard includes:
+
+* Campaign Performance KPIs
+* Customer Segmentation Analysis
+* Product Spending Analysis
+* Purchase Channel Analysis
+* Income vs Spending Analysis
+* Household & Family Analysis
+* Country Performance Analysis
+* Interactive Filters & Slicers
+
+---
+
+## 📁 Repository Contents
+
+```text
+📁 Excel Files
+📁 SQL Queries
+📁 Power BI Dashboard
+📁 Dashboard Screenshots
+📄 Case Study Report
+📄 About Project
+```
+
+---
+
+## 🚀 What I Learned
+
+This project reinforced that successful marketing campaigns require more than measuring customer response rates. 
+By analyzing customer demographics, purchasing behavior, campaign performance, and product preferences together,
+I gained valuable insights into what drives customer engagement and spending. The analysis demonstrated how data can help marketing teams optimize campaign targeting,
+allocate budgets more effectively, and improve overall marketing ROI through evidence-based decision-making.
+
