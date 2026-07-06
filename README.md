@@ -57,3 +57,16 @@ In this project, I analyzed customer marketing data to evaluate campaign perform
 🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/30-Days-30-DA-Project-and-Case-Study/tree/main/Day%205%20%E2%80%94%20Marketing%20Campaign%20Performance).
 
 
+### Day 6 — Banking/Finance: Loan Default Analysis
+
+## 📌 Project Overview
+
+Approving more loans doesn't always lead to higher profitability. While lending generates interest income, poor credit decisions can significantly increase default losses and reduce the overall performance of the loan portfolio. To improve lending outcomes, banks need to understand which borrowers are most likely to default, whether their current risk assessment is effective, and which borrower segments require stricter underwriting.
+
+In this project, I analyzed a consumer credit risk dataset to identify the key factors influencing loan defaults, evaluate the effectiveness of the bank's credit grading system, and uncover opportunities to improve lending decisions.
+
+
+
+🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/30-Days-30-DA-Project-and-Case-Study/tree/main/Day%206%20%E2%80%94%20BankingFinance%20Loan%20Default%20Analysis).
+
+
