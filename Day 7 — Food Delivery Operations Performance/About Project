@@ -1,0 +1,111 @@
+# 📊 Food Delivery: Operations Performance
+
+## 📌 Overview
+
+This project focuses on analyzing food delivery operations to uncover the key factors contributing to delayed deliveries and Service Level Agreement (SLA) breaches. Using operational data, the analysis evaluates delivery performance across cities, traffic conditions, weather, vehicle types, delivery timings, and rider performance to identify opportunities for improving operational efficiency and customer satisfaction.
+
+The project follows a complete end-to-end analytics workflow, beginning with data cleaning in **Excel**, business analysis using **MySQL**, and interactive dashboard development in **Power BI**.
+
+---
+
+## 🎯 Business Objective
+
+The primary objective of this project is to identify the operational factors responsible for late deliveries and provide data-driven recommendations that help operations teams:
+
+* Improve SLA compliance
+* Reduce delivery delays
+* Optimize rider allocation
+* Enhance customer experience
+* Improve operational efficiency
+
+---
+
+## 🛠 Project Workflow
+
+* Data Cleaning & Preparation using **Excel**
+* Business Analysis using **MySQL**
+* Dashboard Development using **Power BI**
+* Business Insights & Recommendations
+
+---
+
+## 📂 Dataset Information
+
+* Approximately **45,500** food delivery records
+* Delivery rider information
+* Order and pickup timings
+* Delivery duration
+* Weather conditions
+* Traffic density
+* Vehicle type
+* Rider ratings
+* City
+* Festival status
+* Multiple deliveries
+
+---
+
+## 📈 Business Questions Answered
+
+* Which city has the highest average delivery time and late delivery rate?
+* Which vehicle type delivers the fastest?
+* How much does traffic congestion impact delivery performance?
+* Which time of day experiences the highest delivery delays?
+* Which weather conditions contribute the most to SLA breaches?
+* Which delivery riders perform the best and the worst?
+
+---
+
+## 📊 Dashboard Highlights
+
+* Executive KPI Cards
+* Delivery Performance by City
+* Vehicle Type Performance Analysis
+* Traffic Density Impact Analysis
+* Weather Condition Analysis
+* Delivery Volume vs Late Rate by Time of Day
+* Rider Rating vs Average Delivery Time
+* Top & Bottom Rider Performance
+* Delivery Speed Band Distribution
+* SLA Compliance Overview
+* Interactive Filters & Slicers
+
+---
+
+## 💡 Business Value
+
+This analysis helps operations teams move beyond reactive decision-making by identifying the root causes of delivery delays. The insights generated support better rider allocation, improved delivery planning, more accurate ETA predictions, and targeted operational improvements that enhance both customer satisfaction and delivery efficiency.
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Data Cleaning
+* Data Validation
+* Exploratory Data Analysis (EDA)
+* SQL Query Writing
+* KPI Development
+* Business Analysis
+* Data Visualization
+* Dashboard Design
+* Operational Analytics
+* Root Cause Analysis
+* Business Storytelling
+* Business Recommendations
+
+---
+
+## 📁 Repository Includes
+
+* 📊 Excel Dataset & Cleaning
+* 🗄️ MySQL Database & SQL Queries
+* 📈 Power BI Dashboard (.pbix)
+* 📷 Dashboard Screenshots
+* 📄 Case Study Report
+* 📝 Project Documentation
+
+---
+
+This project demonstrates how data analytics can transform operational data into actionable business insights, 
+enabling organizations to identify performance bottlenecks, improve delivery operations, optimize resource utilization,
+and make data-driven decisions that enhance customer satisfaction and overall business performance.
