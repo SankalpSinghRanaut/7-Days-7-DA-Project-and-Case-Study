@@ -70,3 +70,15 @@ In this project, I analyzed a consumer credit risk dataset to identify the key f
 🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/30-Days-30-DA-Project-and-Case-Study/tree/main/Day%206%20%E2%80%94%20BankingFinance%20Loan%20Default%20Analysis).
 
 
+### Day 7 — Food Delivery: Operations Performance
+
+## 📌 Project Overview
+
+This project focuses on analyzing food delivery operations to uncover the key factors contributing to delayed deliveries and Service Level Agreement (SLA) breaches. Using operational data, the analysis evaluates delivery performance across cities, traffic conditions, weather, vehicle types, delivery timings, and rider performance to identify opportunities for improving operational efficiency and customer satisfaction.
+
+In this project, I analyzed a food delivery operations dataset to identify the key factors driving delivery delays, evaluate the impact of traffic, weather, cities, vehicle types, and rider performance on SLA compliance, and uncover opportunities to improve operational efficiency and customer satisfaction.
+
+
+🔗 [View Full Case Study](https://github.com/SankalpSinghRanaut/7-Days-7-DA-Project-and-Case-Study/tree/main/Day%207%20%E2%80%94%20Food%20Delivery%20Operations%20Performance).
+
+
