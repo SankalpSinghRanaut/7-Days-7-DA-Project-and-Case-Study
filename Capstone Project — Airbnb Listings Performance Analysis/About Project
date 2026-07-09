@@ -1,0 +1,139 @@
+# 🏠 Airbnb NYC Market Analysis
+
+## 📌 Project Overview
+
+The Airbnb market in New York City is highly competitive, with nearly **49,000 active listings** competing for millions of travelers each year. Hosts face several business challenges, including setting competitive prices, selecting profitable neighborhoods, maximizing occupancy, and improving overall revenue.
+
+This end-to-end data analytics project analyzes **48,900 Airbnb listings** to uncover the key factors influencing listing performance. By examining pricing, room types, customer reviews, host behavior, availability, and neighborhood trends, the project delivers actionable business insights that can help hosts optimize their strategies and identify new market opportunities.
+
+Using **Excel** for data preparation, **MySQL** for business analysis, and **Power BI** for interactive dashboard development, the project transforms raw listing data into meaningful insights that support data-driven decision-making.
+
+---
+
+## 🎯 Business Problem
+
+With thousands of listings available across New York City, Airbnb hosts often struggle to answer important business questions such as:
+
+* What is the ideal pricing strategy to maximize occupancy?
+* Which neighborhoods generate the highest revenue?
+* Which room type performs best?
+* Do customer reviews influence booking demand?
+* Are professional hosts more successful than individual hosts?
+* Where are the untapped market opportunities?
+
+This project addresses these questions through data analysis and provides practical recommendations for improving listing performance.
+
+---
+
+## 🎯 Project Objectives
+
+* Analyze the Airbnb NYC market using real-world listing data.
+* Identify pricing strategies that maximize occupancy and revenue.
+* Compare listing performance across boroughs and neighborhoods.
+* Evaluate the impact of room types, reviews, and minimum stay requirements on customer demand.
+* Compare the performance of professional and individual hosts.
+* Discover underserved neighborhoods with strong growth potential.
+* Build an interactive Power BI dashboard for business decision-making.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Microsoft Excel** – Data Cleaning & Preprocessing
+* **MySQL** – Business Analysis & SQL Queries
+* **Power BI** – Interactive Dashboard & Data Visualization
+
+---
+
+## 📊 Dataset Information
+
+* **Source:** Airbnb NYC Open Data
+* **Total Listings:** ~48,900
+* **Location:** New York City
+* **Data Includes:**
+
+  * Listing Information
+  * Host Details
+  * Borough & Neighborhood
+  * Room Type
+  * Price
+  * Availability
+  * Minimum Stay
+  * Customer Reviews
+  * Last Review Date
+
+---
+
+## 📈 Dashboard Highlights
+
+The Power BI dashboard provides interactive insights into:
+
+* Market Overview
+* Borough Performance
+* Pricing Analysis
+* Revenue Analysis
+* Host Performance
+* Customer Behavior
+* Occupancy Trends
+* Neighborhood Analysis
+* Supply Gap Opportunities
+* Business KPIs
+
+---
+
+## 🔍 Key Business Insights
+
+* **Brooklyn** has the highest number of Airbnb listings (**20,104**), making it the largest market by supply.
+* **Manhattan** records the highest average nightly price (**$196.88**), reflecting premium tourist demand.
+* **Entire Home/Apartments** command the highest average nightly price, while **Private Rooms** receive more reviews and consistent bookings.
+* The **$50–150** price range delivers the strongest occupancy, averaging **262 booked days per year**.
+* **Individual hosts** generate approximately **1.9× higher estimated annual revenue per listing** than professional hosts and receive nearly **3× more reviews**.
+* Flexible minimum stay requirements (1–3 nights) encourage higher booking activity.
+* Neighborhoods such as **DUMBO, Vinegar Hill, Jamaica Estates, and City Island** present attractive opportunities due to limited competition and premium pricing.
+
+---
+
+## 💡 Business Recommendations
+
+* Focus expansion efforts on **Brooklyn** and **Queens**, where demand remains strong.
+* Adopt a **mid-range pricing strategy ($50–150)** to maximize occupancy.
+* Offer **flexible minimum stay options** to attract more bookings.
+* Encourage early customer reviews through introductory offers and excellent guest experiences.
+* Standardize listing quality and response times to improve occupancy.
+* Explore underserved neighborhoods with high pricing potential and lower competition.
+
+---
+
+## 📁 Project Deliverables
+
+---
+📁 Data
+📁 Excel Files
+📁 SQL Queries
+📁 Power BI Dashboard
+📁 Dashboard Screenshots
+📁 Presentation
+📄 Case Study Report
+📄 About Project
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Data Cleaning
+* SQL Query Writing
+* Business Analysis
+* KPI Development
+* Dashboard Design
+* Data Visualization
+* Business Storytelling
+* Insight Generation
+* Strategic Recommendations
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how data analytics can be applied to solve real-world business problems in the short-term rental industry. 
+By combining data cleaning, SQL-based analysis, and interactive dashboards,the analysis provides valuable insights into pricing strategies, 
+customer behavior, host performance, and market opportunities, enabling data-driven decisions that improve both occupancy and revenue.
