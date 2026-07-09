@@ -274,9 +274,12 @@ Built end-to-end with **Microsoft Excel**, **MySQL**, and **Power BI**.
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
@@ -305,7 +308,6 @@ If this repo helped you or you just enjoyed the read, a ⭐ means a lot.
 [![GitHub](https://img.shields.io/badge/GitHub-SankalpSinghRanaut-181717?style=for-the-badge&logo=github)](https://github.com/SankalpSinghRanaut)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-singh-ranaut/)
 [![Gmail](https://img.shields.io/badge/Gmail-Say_Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.sankalp07@gmail.com)
-
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0f2027&height=100&section=footer" width="100%"/>
 
